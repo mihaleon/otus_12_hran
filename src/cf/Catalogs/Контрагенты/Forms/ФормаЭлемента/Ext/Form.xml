@@ -186,6 +186,105 @@
 							<ContextMenu name="РодительКонтекстноеМеню" id="22"/>
 							<ExtendedTooltip name="РодительExtendedTooltip" id="45"/>
 						</InputField>
+						<InputField name="ТипКонтрагента" id="118">
+							<DataPath>Объект.ТипКонтрагента</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипКонтрагентаКонтекстноеМеню" id="119"/>
+							<ExtendedTooltip name="ТипКонтрагентаРасширеннаяПодсказка" id="120"/>
+							<Events>
+								<Event name="OnChange">ТипКонтрагентаПриИзменении</Event>
+							</Events>
+						</InputField>
+						<Pages name="ГруппаТипКонтрагента" id="121">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа тип контрагента</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа тип контрагента</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ГруппаТипКонтрагентаРасширеннаяПодсказка" id="122"/>
+							<ChildItems>
+								<Page name="ГруппаФиз" id="123">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа физ</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа физ</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаФизРасширеннаяПодсказка" id="124"/>
+									<ChildItems>
+										<InputField name="Фамилия" id="125">
+											<DataPath>Объект.Фамилия</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ФамилияКонтекстноеМеню" id="126"/>
+											<ExtendedTooltip name="ФамилияРасширеннаяПодсказка" id="127"/>
+										</InputField>
+										<InputField name="Имя" id="128">
+											<DataPath>Объект.Имя</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ИмяКонтекстноеМеню" id="129"/>
+											<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="130"/>
+										</InputField>
+										<InputField name="Отчество" id="131">
+											<DataPath>Объект.Отчество</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ОтчествоКонтекстноеМеню" id="132"/>
+											<ExtendedTooltip name="ОтчествоРасширеннаяПодсказка" id="133"/>
+										</InputField>
+										<InputField name="ДатаРождения" id="134">
+											<DataPath>Объект.ДатаРождения</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="135"/>
+											<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="136"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+								<Page name="ГруппаЮр" id="137">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа юр</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа юр</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЮрРасширеннаяПодсказка" id="138"/>
+									<ChildItems>
+										<InputField name="ИНН" id="139">
+											<DataPath>Объект.ИНН</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ИННКонтекстноеМеню" id="140"/>
+											<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="141"/>
+										</InputField>
+										<InputField name="КПП" id="142">
+											<DataPath>Объект.КПП</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="КППКонтекстноеМеню" id="143"/>
+											<ExtendedTooltip name="КППРасширеннаяПодсказка" id="144"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
 						<UsualGroup name="ГруппаВидЦенИНовыйРасчетныйСчет" id="78">
 							<Title>
 								<v8:item>
