@@ -1,7 +1,7 @@
 ## Инициализация гитсинха (один раз)
 
-gitsync init -u gitbot f:\otus\StorageTest_Git\ f:\otus\otus-1c-git3\src\cf\
+gitsync init -u gitsync -p 123 "D:\1c Config\OTUS_HRAN\" "D:\Projects\GIT\otus_12_hran\src\cf"
 
 ## Синхронизация с хранилищем
 
-gitsync sync -u gitbot f:\otus\StorageTest_Git\ f:\otus\otus-1c-git3\src\cf\
+gitsync sync -u gitsync -p 123 "D:\1c Config\OTUS_HRAN\" "D:\Projects\GIT\otus_12_hran\src\cf"
