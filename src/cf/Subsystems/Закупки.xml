@@ -29,6 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.УстановитьСканерШтрихкодов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.НастроитьСканерШтрихКодов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОстаткиТоваровНаСкладахКоманда</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДоговорКонтрагента</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
